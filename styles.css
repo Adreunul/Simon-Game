@@ -1,0 +1,100 @@
+body{
+    background-color: burlywood;
+}
+
+h1{
+    font-family: cursive;
+    font-size:50px;
+    color: rgb(10, 122, 107);
+    text-align: center;
+    margin: 0;
+}
+
+.guiding-text{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(10, 122, 107);
+    text-align: center;
+    margin: 0;
+}
+
+.scoreboard{
+    text-align: center;
+    font-family: cursive;
+    font-size: 75px;
+    font-weight: bold;
+    color:firebrick;
+    margin:0px;
+}
+
+.best-score-label{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin:0px;
+}
+
+.player-best-score{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:0px;
+}
+
+.container{
+    display:flex;
+    height: 100vh;
+    flex-direction: column;
+    gap:25px;
+}
+
+.container1{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    
+}
+
+.container2{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+}
+
+
+.square{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    border: 15px solid #000000a2;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.deadsquare{
+    background-color: darkgray !important;
+}
+
+.lit{
+    border: 35px solid white !important;
+    padding: 0px;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: darkblue;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
